@@ -5,12 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+
+<link rel="stylesheet" type="text/css" href="./HW2.css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
-        Net Pay Calculator</div>
+    <h1>    Net Pay Calculator</h1></div>
+    <p>
+        &nbsp;</p>
     <p>
         Please enter hourly wage:</p>
     <p>
@@ -32,16 +37,19 @@
         <asp:TextBox ID="afterTextBox" runat="server"></asp:TextBox>
     </p>
     <p>
-        <asp:Button ID="calculateButton" runat="server" Text="Calculate" />
+        &nbsp;</p>
+    <p>
+        <asp:Button ID="calculateButton" runat="server" Text="Calculate" 
+            BorderStyle="Outset" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="clearButton" runat="server" Text="Clear" />
+        <asp:Button ID="clearButton" runat="server" Text="Clear" BorderStyle="Outset" />
     </p>
+    <p>
+        &nbsp;</p>
     <p>
         Employee Net Take Home Pay: 
         <asp:Label ID="netLabel" runat="server"></asp:Label>
     </p>
-    <p>
-        &nbsp;</p>
     </form>
 </body>
 </html>

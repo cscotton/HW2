@@ -1,15 +1,13 @@
 body {
-	background: #0080000;
-	font-family: Verdana;
+	background: Green;
+	color: White;
+	font-family: Cooper Std Black;
 	font-size: 16pt;
-	margin-left: 10%;
-	margin-right: 10%;
-		}
+			}
 
 h1 {
-	font-family: Ecuyer DAX;
+	font-family: Cooper Std Black;
 	font-size: 22pt;
-	margin-left: 10%;
-	margin-right: 10%;
-	}
+	text-align: center
+		}
 	

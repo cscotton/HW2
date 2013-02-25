@@ -25,17 +25,16 @@ Partial Class index
         taxTotal = preResult * taxRate
 
         'calculate net take home pay
-        netResult = gross - pre - taxTotal - after
+        netResult = preResult - taxTotal - after
 
         Return netResult
     End Function
 
+
     Protected Sub calculateButton_Click(sender As Object, e As System.EventArgs) Handles calculateButton.Click
         
-
         'Display Net take home pay after taxes
         netLabel.Text = calculateNet()
-
 
     End Sub
 
